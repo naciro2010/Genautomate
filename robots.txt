@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://naciro2010.github.io/Genautomate/sitemap.xml

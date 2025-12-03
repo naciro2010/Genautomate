@@ -3,12 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AY Automate | Automatisation No-Code & IA</title>
+  <title>AY Automate | Automatisation No-Code & IA - Leader de l'Automatisation Intelligente</title>
+  <meta name="description" content="AY Automate conçoit des solutions d'automatisation intelligentes avec IA : workflows métier, agents vocaux 24/7, intégrations de 400+ apps. Gagnez 20+ heures/semaine et boostez vos ventes de 30%." />
+  <meta name="keywords" content="automatisation, IA, no-code, workflow, agents vocaux, CRM, intégration, ROI, productivité" />
+  <meta name="author" content="AY Automate" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ayautomate.com/" />
+  <meta property="og:title" content="AY Automate | Automatisation No-Code & IA" />
+  <meta property="og:description" content="Solutions d'automatisation intelligentes avec IA. Gagnez 20+ heures/semaine." />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="AY Automate | Automatisation No-Code & IA" />
+  <meta property="twitter:description" content="Solutions d'automatisation intelligentes avec IA." />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
+
+  <!-- Schema.org markup for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AY Automate",
+    "description": "Solutions d'automatisation intelligentes avec IA",
+    "url": "https://ayautomate.com",
+    "logo": "https://ayautomate.com/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hello@ayautomate.com",
+      "contactType": "Customer Service"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/ay-automate"
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="topbar">
@@ -178,6 +213,204 @@
       </div>
     </section>
 
+    <section class="section" id="roi-calculator">
+      <div class="section-header">
+        <p class="eyebrow">Calculateur ROI</p>
+        <h2>Calculez votre retour sur investissement</h2>
+        <p class="section-lede">Découvrez combien vous pouvez économiser et gagner avec nos solutions d'automatisation.</p>
+      </div>
+      <div class="roi-container">
+        <div class="card roi-inputs">
+          <h3>Vos paramètres</h3>
+          <div class="input-group">
+            <label for="employees">Nombre d'employés</label>
+            <input type="number" id="employees" value="10" min="1" max="10000" />
+          </div>
+          <div class="input-group">
+            <label for="hourly-rate">Coût horaire moyen (€)</label>
+            <input type="number" id="hourly-rate" value="35" min="10" max="200" />
+          </div>
+          <div class="input-group">
+            <label for="manual-hours">Heures manuelles/mois par employé</label>
+            <input type="number" id="manual-hours" value="20" min="1" max="160" />
+          </div>
+          <div class="input-group">
+            <label for="automation-percent">% de tâches automatisables</label>
+            <input type="range" id="automation-percent" value="60" min="0" max="100" />
+            <span class="range-value">60%</span>
+          </div>
+        </div>
+        <div class="card roi-results">
+          <h3>Votre ROI estimé</h3>
+          <div class="roi-metric">
+            <span class="roi-label">Économies mensuelles</span>
+            <span class="roi-value" id="monthly-savings">4 200 €</span>
+          </div>
+          <div class="roi-metric">
+            <span class="roi-label">Économies annuelles</span>
+            <span class="roi-value highlight" id="yearly-savings">50 400 €</span>
+          </div>
+          <div class="roi-metric">
+            <span class="roi-label">Heures récupérées/mois</span>
+            <span class="roi-value" id="hours-saved">120 h</span>
+          </div>
+          <div class="roi-metric">
+            <span class="roi-label">ROI sur 12 mois</span>
+            <span class="roi-value" id="roi-percent">1 940%</span>
+          </div>
+          <canvas id="roi-chart" width="300" height="200"></canvas>
+          <a class="btn btn-primary" href="#contact">Démarrer votre automatisation</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="section-header">
+        <p class="eyebrow">Témoignages</p>
+        <h2>Ce que disent nos clients</h2>
+        <p class="section-lede">Des résultats mesurables pour des entreprises de toutes tailles.</p>
+      </div>
+      <div class="testimonials-grid">
+        <article class="card testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"AY Automate a transformé notre processus de qualification des leads. Nous avons gagné 25 heures par semaine et augmenté notre taux de conversion de 40%."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">ML</div>
+            <div>
+              <div class="author-name">Marie Leclerc</div>
+              <div class="author-title">Directrice Marketing, TechCorp SaaS</div>
+            </div>
+          </div>
+          <div class="testimonial-metrics">
+            <div><strong>+40%</strong> conversions</div>
+            <div><strong>25h</strong> gagnées/sem</div>
+          </div>
+        </article>
+        <article class="card testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"L'agent vocal IA a révolutionné notre service client. Disponible 24/7, il traite 80% des demandes automatiquement et nos clients adorent."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JD</div>
+            <div>
+              <div class="author-name">Jean Dupont</div>
+              <div class="author-title">CEO, E-commerce Pro</div>
+            </div>
+          </div>
+          <div class="testimonial-metrics">
+            <div><strong>80%</strong> auto-résolution</div>
+            <div><strong>24/7</strong> disponibilité</div>
+          </div>
+        </article>
+        <article class="card testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"ROI incroyable ! En 3 mois, l'automatisation de nos workflows a permis d'économiser 50 000€ et d'éliminer les erreurs manuelles."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SP</div>
+            <div>
+              <div class="author-name">Sophie Petit</div>
+              <div class="author-title">Directrice Ops, FinanceHub</div>
+            </div>
+          </div>
+          <div class="testimonial-metrics">
+            <div><strong>50k€</strong> économisés</div>
+            <div><strong>0</strong> erreurs</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="integrations">
+      <div class="section-header">
+        <p class="eyebrow">Intégrations</p>
+        <h2>Connectez tous vos outils</h2>
+        <p class="section-lede">Plus de 400 intégrations disponibles pour synchroniser votre écosystème digital.</p>
+      </div>
+      <div class="integrations-showcase">
+        <div class="integration-category">
+          <h3>🎯 CRM & Ventes</h3>
+          <div class="integration-logos">
+            <span class="integration-badge">HubSpot</span>
+            <span class="integration-badge">Salesforce</span>
+            <span class="integration-badge">Pipedrive</span>
+            <span class="integration-badge">Zoho CRM</span>
+          </div>
+        </div>
+        <div class="integration-category">
+          <h3>💬 Communication</h3>
+          <div class="integration-logos">
+            <span class="integration-badge">Slack</span>
+            <span class="integration-badge">Microsoft Teams</span>
+            <span class="integration-badge">Gmail</span>
+            <span class="integration-badge">Outlook</span>
+          </div>
+        </div>
+        <div class="integration-category">
+          <h3>📊 Data & Analytics</h3>
+          <div class="integration-logos">
+            <span class="integration-badge">Google Sheets</span>
+            <span class="integration-badge">Airtable</span>
+            <span class="integration-badge">Notion</span>
+            <span class="integration-badge">Supabase</span>
+          </div>
+        </div>
+        <div class="integration-category">
+          <h3>🤖 IA & Automation</h3>
+          <div class="integration-logos">
+            <span class="integration-badge">OpenAI</span>
+            <span class="integration-badge">Anthropic</span>
+            <span class="integration-badge">Make</span>
+            <span class="integration-badge">Zapier</span>
+            <span class="integration-badge">n8n</span>
+          </div>
+        </div>
+        <div class="integration-category">
+          <h3>🎫 Support & Tickets</h3>
+          <div class="integration-logos">
+            <span class="integration-badge">Zendesk</span>
+            <span class="integration-badge">Intercom</span>
+            <span class="integration-badge">Freshdesk</span>
+          </div>
+        </div>
+        <div class="integration-category">
+          <h3>💳 Paiement & Finance</h3>
+          <div class="integration-logos">
+            <span class="integration-badge">Stripe</span>
+            <span class="integration-badge">PayPal</span>
+            <span class="integration-badge">QuickBooks</span>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 32px;">
+        <p class="integration-count">+ 400 intégrations disponibles via API</p>
+        <a class="btn btn-secondary" href="#contact">Demander une intégration custom</a>
+      </div>
+    </section>
+
+    <section class="section" id="stats">
+      <div class="section-header">
+        <p class="eyebrow">Impact en temps réel</p>
+        <h2>Nos résultats parlent d'eux-mêmes</h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-target="2847">0</div>
+          <div class="stat-label">Automatisations déployées</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="156">0</div>
+          <div class="stat-label">Clients satisfaits</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-label">% taux de satisfaction</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="450">0</div>
+          <div class="stat-label">K heures économisées</div>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="pricing">
       <div class="section-header">
         <p class="eyebrow">Offres</p>
@@ -264,7 +497,42 @@
       <a href="#pricing">Offres</a>
       <a href="mailto:hello@ayautomate.com">Contact</a>
     </div>
-    <p class="small">Site statique prêt pour GitHub Pages · © AY Automate</p>
+    <p class="small">Site ultra-optimisé · Déploiement automatique GitHub Actions · © 2024 AY Automate</p>
   </footer>
+
+  <!-- Chatbot IA Flottant -->
+  <div id="chatbot-widget" class="chatbot-widget">
+    <button id="chatbot-toggle" class="chatbot-toggle" aria-label="Ouvrir le chat">
+      💬
+    </button>
+    <div id="chatbot-window" class="chatbot-window hidden">
+      <div class="chatbot-header">
+        <div>
+          <div class="chatbot-title">Assistant AY</div>
+          <div class="chatbot-status">🟢 En ligne</div>
+        </div>
+        <button id="chatbot-close" class="chatbot-close-btn">&times;</button>
+      </div>
+      <div id="chatbot-messages" class="chatbot-messages">
+        <div class="chatbot-message bot">
+          <div class="message-content">
+            👋 Bonjour ! Je suis votre assistant virtuel. Comment puis-je vous aider aujourd'hui ?
+            <div class="quick-replies">
+              <button class="quick-reply">Calculer mon ROI</button>
+              <button class="quick-reply">Voir les services</button>
+              <button class="quick-reply">Réserver un appel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chatbot-input-area">
+        <input type="text" id="chatbot-input" placeholder="Posez votre question..." />
+        <button id="chatbot-send" class="chatbot-send-btn">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bouton scroll to top -->
+  <button id="scroll-top" class="scroll-top-btn hidden" aria-label="Retour en haut">↑</button>
 </body>
 </html>
